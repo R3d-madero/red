@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Red Mader</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src='https://connect.facebook.net/en_US/fbevents.js';
+    s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script');
+
+    fbq('init', '906771292134504');
+    fbq('track', 'PageView');
+  </script>
+
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=906771292134504&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #0b0b0b;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .logo-text {
+      color: #d4af37;
+      font-weight: 800;
+      font-size: 26px;
+      letter-spacing: 2px;
+    }
+
+    hr {
+      width: 100%;
+      border: none;
+      border-top: 1px solid #333;
+      margin: 20px 0;
+    }
+
+    .verified {
+      text-align: center;
+    }
+
+    .verified h2 {
+      font-size: 22px;
+      color: #d4af37;
+    }
+
+    .message {
+      background: #141414;
+      border: 1px solid #2a2a2a;
+      padding: 18px;
+      border-radius: 12px;
+      margin: 20px 0;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .info-box {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      padding: 16px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .highlight-box {
+      background: #111;
+      border: 2px solid #d4af37;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 18px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+      font-size: 18px;
+    }
+
+    .gold {
+      color: #d4af37;
+      font-weight: 600;
+    }
+
+    .check {
+      color: #d4af37;
+      font-weight: bold;
+    }
+
+    .whatsapp-button {
+      background: linear-gradient(135deg, #d4af37, #f1d27a);
+      color: #000;
+      padding: 18px 30px;
+      border-radius: 40px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 17px;
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+      transition: all 0.3s ease;
+      display: inline-block;
+    }
+
+    .whatsapp-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.7);
+    }
+
+    .clientes {
+      background: #111;
+      border: 1px solid #2a2a2a;
+      color: #d4af37;
+      padding: 12px 20px;
+      border-radius: 30px;
+      margin: 16px 0;
+      text-align: center;
+    }
+
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #000;
+      border-top: 1px solid #333;
+      color: #d4af37;
+      text-align: center;
+      padding: 12px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .notificacion {
+      position: fixed;
+      bottom: 110px;
+      left: 10px;
+      background: #111;
+      border: 1px solid #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 11px;
+      animation: fadeinout 6s infinite;
+    }
+
+    @keyframes fadeinout {
+      0%,100% { opacity: 0; transform: translateY(10px); }
+      10%,90% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo-text">RED MADERO</div>
+</header>
+
+<hr />
+
+<section class="verified">
+  <h2>Acceso a sistema privado</h2>
+  <p>Si vendes fich@s sabés que el margen lo es TODO.</p>
+</section>
+
+<div class="highlight-box">
+  💰 <span class="gold">Ganancias de hasta 85%</span><br/>
+  Comprás fich@s y las revendés a tus jug@dores
+</div>
+
+<div class="info-box gold">
+  ⚠️ <strong>Importante</strong><br/>
+  Necesitás capital inicial<br/>
+  Pagás los premios<br/>
+  Manejo 100% propio
+</div>
+
+<div class="info-box">
+  🚀 <strong class="gold">Sistema listo para arrancar</strong><br/>
+  <span class="check">✔</span> Soporte directo<br/>
+  <span class="check">✔</span> Herramientas incluidas<br/>
+  <span class="check">✔</span> Operación simple
+</div>
+
+<a class="whatsapp-button" 
+   href="https://wa.me/5491171585936?text=Hola%2C%20vi%20el%20anuncio.%20Quiero%20informaci%C3%B3n%20sobre%20el%20sistema."  
+   target="_blank"
+   onclick="fbq('trackCustom', 'ClickWhatsApp')">
+  QUIERO MÁS INFORMACIÓN
+</a>
+
+<div class="clientes">
+  Cupos limitados disponibles
+</div>
+
+<div class="notificacion" id="notificacion">
+  <div id="noti-text"></div>
+</div>
+
+<div class="footer">
+  Acceso limitado — Consultá ahora
+</div>
+
+<script>
+  const actividad = [
+    { nombre: "Juan", ciudad: "Buenos Aires", tiempo: "hace 1 min" },
+    { nombre: "Lucía", ciudad: "Córdoba", tiempo: "hace 2 min" },
+    { nombre: "Matías", ciudad: "Rosario", tiempo: "hace 3 min" },
+    { nombre: "Carla", ciudad: "Mendoza", tiempo: "hace 4 min" },
+    { nombre: "Diego", ciudad: "Salta", tiempo: "hace 5 min" },
+  ];
+
+  let i = 0;
+  function actualizar() {
+    const n = actividad[i % actividad.length];
+    document.getElementById("noti-text").innerHTML =
+      `<strong>${n.nombre}</strong><br/>
+      Se contactó desde ${n.ciudad}<br/>
+      ${n.tiempo}`;
+    i++;
+  }
+
+  setInterval(actualizar, 8000);
+  actualizar();
+</script>
+
+</body>
+</html>
