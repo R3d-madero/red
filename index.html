@@ -27,6 +27,7 @@
     src="https://www.facebook.com/tr?id=906771292134504&ev=PageView&noscript=1"/>
   </noscript>
 
+
   <style>
     body {
       margin: 0;
@@ -42,6 +43,11 @@
     header {
       margin-top: 30px;
       text-align: center;
+    }
+
+    .logo {
+      width: 160px;
+      margin-bottom: 10px;
     }
 
     .logo-text {
@@ -67,6 +73,10 @@
       color: #d4af37;
     }
 
+    .green {
+      color: #aaa;
+    }
+
     .message {
       background: #141414;
       border: 1px solid #2a2a2a;
@@ -74,7 +84,6 @@
       border-radius: 12px;
       margin: 20px 0;
       text-align: center;
-      font-weight: 600;
     }
 
     .info-box {
@@ -84,28 +93,10 @@
       border-radius: 10px;
       margin-bottom: 15px;
       text-align: center;
-      line-height: 1.6;
     }
 
-    .highlight-box {
-      background: #111;
-      border: 2px solid #d4af37;
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 18px;
-      text-align: center;
-      box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
-      font-size: 18px;
-    }
-
-    .gold {
+    .info-box strong {
       color: #d4af37;
-      font-weight: 600;
-    }
-
-    .check {
-      color: #d4af37;
-      font-weight: bold;
     }
 
     .whatsapp-button {
@@ -172,38 +163,42 @@
 <body>
 
 <header>
+
   <div class="logo-text">RED MADERO</div>
 </header>
 
 <hr />
 
 <section class="verified">
-  <h2>Sumate como cajero independiente</h2>
+  <h2>Acceso a sistema privado</h2>
+  <p class="green">Red con soporte y estructura organizada</p>
 </section>
 
-<div class="highlight-box">
-  💰 <span class="gold">Ganancias de hasta 85%</span> 💰<br/>
-</div>
-
-<div class="info-box gold">
-  ⭐Accedé a más de 50 plataformas<br/>
-  ⭐Todo verificado<br/>
-  ⭐Formá parte de la red más segura del país
+<div class="message">
+  Estás a un paso de conocer cómo funciona el sistema
 </div>
 
 <div class="info-box">
-  🚀 <strong class="gold">Todo listo para arrancar</strong> 🚀<br/>
+  ❌ Falta de soporte<br/>
+  ❌ Procesos lentos<br/>
+  ❌ Trabajo desordenado
+</div>
+
+<div class="info-box">
+  <strong>✔ Soporte directo</strong><br/>
+  <strong>✔ Herramientas disponibles</strong><br/>
+  <strong>✔ Operación más simple</strong>
 </div>
 
 <a class="whatsapp-button" 
-   href="https://wa.me/5491171585936?text=Hola%2C%20vi%20el%20anuncio.%20Quiero%20informaci%C3%B3n%20sobre%20el%20sistema."  
+   href="https://wa.me/5491171585936?text=Hola%2C%20vi%20el%20anuncio.%20Me%20interesa%20saber%20c%C3%B3mo%20funciona%20y%20empezar."  
    target="_blank"
    onclick="fbq('trackCustom', 'ClickWhatsApp')">
   QUIERO MÁS INFORMACIÓN
 </a>
 
 <div class="clientes">
-  Cupos limitados disponibles
+  Personas ya se están sumando al sistema
 </div>
 
 <div class="notificacion" id="notificacion">
@@ -235,6 +230,7 @@
 
   setInterval(actualizar, 8000);
   actualizar();
+
 </script>
 
 </body>
